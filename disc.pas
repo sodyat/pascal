@@ -1,4 +1,5 @@
 program disc;
+{$APPTYPE CONSOLE}
 
 uses SysUtils;
 var A,B,C,D,E,x1,x2:single;
@@ -13,6 +14,6 @@ X1:=(-B+Sqrt(D))/E;
 X2:=(-B-Sqrt(D))/E;
 WriteLn('x1',x1,'x2',x2)
 end
-else WriteLn('no result');
+else WriteLn('D < 0');
 ReadLn;
 end.
